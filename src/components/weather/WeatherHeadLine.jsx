@@ -45,7 +45,7 @@ export default function WeatherHeadLine() {
         <img src={getWeatherIcon(climate)} alt="cloud" />
         <div className="max-md:flex items-center max-md:space-x-4">
           <h1 className="text-[60px] lg:text-[80px] xl:text-[100px] leading-none md:mb-4">
-            {Math.round(temperature)}
+            {Math.round(temperature)}°
           </h1>
           <div className="flex items-center space-x-4 md:mb-4">
             <img src={PinIcon} />
